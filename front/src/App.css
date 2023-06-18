@@ -1,0 +1,116 @@
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem;
+}
+.logo img{
+  width: 15rem;
+}
+nav{
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.head-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-image: url('http://localhost:3000/imgs/header-background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.body-title{
+  width: 100%;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.produits-mis-en-avant-conteneur{
+  margin-top: 6rem;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+.title-section{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.container-products {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.container-products img{
+width: 70%;
+}
+
+.autres-produits{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.conteneur-wrap-product{
+  width: 70%;
+  display: flex;
+  
+}
+.content-warp-product{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.content-warp-product img{
+ height: 225px;
+ width: 225px;
+}
+.content-warp-product > .container-products{
+ width: 25%;
+}
+
+.connexionFrom, .inscriptionForm{
+  padding: 3rem;
+  border: solid 1px rgb(rgb(157, 157, 157));
+}
+.connexionFrom, .inscriptionForm input{
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.connexionFrom  input{
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.conteneur-inscription-connexion{
+  display: flex;
+  justify-content: center;
+}
+.conteneur-inscription-connexion form{
+display: flex;
+flex-direction: column;
+width: 30rem;
+
+}
+
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+  outline: none;
+  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: none;
+}
